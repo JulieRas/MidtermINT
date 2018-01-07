@@ -1,0 +1,53 @@
+---
+title: "Event Study Analysis"
+output: slidy_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+##Event Study Analysis
+
+Focusing on 3 spesific Events in Thailand
+
+1.Songkran
+
+2.Loy Krathong
+
+3.New Years Eve
+
+
+## Dataset
+
+
+1.Data from Bloomberg 
+
+2.Day negative 10 -> day positive 10 
+
+3.0 Being time of Event/Impact
+
+
+## Summary of Eventdata
+
+Table of summary statictics
+```{r}
+summary(cars)
+```
+```{r}
+summary(cars)
+```
+```{r}
+summary(cars)
+```
+
+## Plot of Eventdata
+```{r fig.width=3, fig.height=4}
+plot(cars)
+```
+```{r fig.width=3, fig.height=4}
+plot(cars)
+```
+```{r fig.width=3, fig.height=4}
+plot(cars)
+```
